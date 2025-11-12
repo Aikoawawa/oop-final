@@ -1,4 +1,5 @@
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250) # HonLib lms
+# HonLib lms
+<img src="https://github.com/Aikoawawa/oop-final/blob/main/assets/logo_noText.png" width="300" height="300">
 
 
 
