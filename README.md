@@ -1,4 +1,3 @@
-﻿# HonLib lms
+![alt text](https://github.com/Aikoawawa/oop-final/blob/main/assets/logo_noText.png)﻿# HonLib lms
 
- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
