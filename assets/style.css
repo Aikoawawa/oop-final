@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Login CSS*/
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/loginBackground.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: 0;
+}
+
+.login-form {
+    background-color: #fff3e0;
+    width: 392px;
+    height: 481px;
+    margin: 100px auto;
+    border-radius: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+.login-frame {
+    width: 320px;
+    height: 196px;
+    position: relative;
+    font-size: 28px;
+    top: 72px;
+    left: 36px;
+
+
+}
+
+.password-input {
+    padding-top: 16px;
+}
+
+.submit-button {
+
+}
+
+.text-input {
+    border: 0;
+    width: 302px;
+    height: 56px;
+    font-size: 20px;
+    border-radius: 16px;
+    padding-left: 16px;
+}
+
+
+/*END*/
+
+/*Heading CSS*/
+
+header {
+    background-color: #1C1C1C; 
+    height: 200px;
+    border-radius: 0 0 32px 32px;
+    z-index: 3;
+    position: relative;
+}
+
+.header-logo {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*END*/

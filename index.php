@@ -23,20 +23,28 @@
 <html lang="en">
 <head>
     <link href="/assets/style.css" rel="stylesheet">
+    <link rel="icon" href="/assets/logo_noText.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>HonLib</title>
 </head>
 <body>
+    <?php include __DIR__.'/includes/heading.php';?>
+    <div class="bg-image"></div>
+
     <h1>Login page</h1>
     
     <div class="login-form">
         <form action="index.php" method="POST">
-            Email<br> 
-            <input type="text" name="email" placeholder="Email" required class="text-input"><br>
-            Password<br>
-            <input type="text" name="password" placeholder="password" required class="text-input"><br>
-            <input type="submit" name="login" value="login" class="submit-button"><br>
+            <div class="login-frame">
+                <label for="email">Username</label><br> 
+                <input type="text" name="email" placeholder="" required class="text-input"><br>
+                <div class="password-input">
+                    <label for="password">Password</label><br>
+                    <input type="text" name="password" placeholder="" required class="text-input"><br>
+                </div>
+                <input type="submit" name="login" value="login" class="submit-button"><br>
+            </div>
         </form>
     </div>  
 
