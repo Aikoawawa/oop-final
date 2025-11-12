@@ -31,8 +31,6 @@
 <body>
     <?php include __DIR__.'/includes/heading.php';?>
     <div class="bg-image"></div>
-
-    <h1>Login page</h1>
     
     <div class="login-form">
         <form action="index.php" method="POST">
