@@ -34,14 +34,12 @@
     
     <div class="login-form">
         <form action="index.php" method="POST">
-            <div class="login-frame">
-                <label for="email">Username</label><br> 
-                <input type="text" name="email" placeholder="" required class="text-input"><br>
+            <div class="login-frame"> 
+                <input type="text" name="email" placeholder="Username" required class="text-input"><br>
                 <div class="password-input">
-                    <label for="password">Password</label><br>
-                    <input type="text" name="password" placeholder="" required class="text-input"><br>
+                    <input type="password" name="password" placeholder="Password" required class="text-input"><br>
                 </div>
-                <input type="submit" name="login" value="login" class="submit-button"><br>
+                <input type="submit" name="login" value="Login" class="submit-button"><br>
             </div>
         </form>
     </div>  
